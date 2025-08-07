@@ -28,19 +28,19 @@ select ProductID,ProductName,UnitPrice
 from Products
 where UnitPrice > 100;
 
-select ProductID, UnitPrice
+select ProductID,UnitPrice
 from Products
 where ProductName = 'ยางลบ';
 
-select ReceiptID, ReceiptDate, TotalCash
+select ReceiptID,ReceiptDate,TotalCash
 from Receipts
 where ReceiptDate < '2023-02-15';
 
-select ProductID, ProductName
+select ProductID,ProductName
 from Products
 where UnitsInStock >= 400;
 
-select ProductID, ProductName, UnitPrice, UnitsInStock
+select ProductID,ProductName,UnitPrice,UnitsInStock
 from Products
 where ProductName IN ('แชมพู','แป้งเด็ก','ดินสอ','ยางลบ');
 
@@ -50,14 +50,14 @@ where CategoryID = 1;
 select * from Categories
 where CategoryID = 4;
 
-select Title, FirstName, LastName
+select Title,FirstName,LastName
 from Employees
 where Position = 'Sale Representative';
 
-select EmployeeID, FirstName, LastName, UserName, Password
+select EmployeeID,FirstName,LastName,UserName,Password
 from Employees;
 
-select UserName, Password
+select UserName,Password
 from Employees
 where FirstName = 'ก้องนิรันดร์';
 
@@ -65,6 +65,7 @@ select EmployeeID
 from Receipts
 where ReceiptID = 3;
 
-select ProductID, ProductName, UnitPrice
+select ProductID,ProductName,UnitPrice
 from Products
 where CategoryID IN (2,4);
+
