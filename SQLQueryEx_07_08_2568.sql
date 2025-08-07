@@ -34,7 +34,7 @@ where ProductName = 'ยางลบ';
 
 select ReceiptID,ReceiptDate,TotalCash
 from Receipts
-where ReceiptDate < '2023-02-15';
+where ReceiptDate < '2013-02-15';
 
 select ProductID,ProductName
 from Products
@@ -68,4 +68,5 @@ where ReceiptID = 3;
 select ProductID,ProductName,UnitPrice
 from Products
 where CategoryID IN (2,4);
+
 
