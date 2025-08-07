@@ -44,7 +44,7 @@ select ProductID,ProductName,UnitPrice,UnitsInStock
 from Products
 where ProductName IN ('แชมพู','แป้งเด็ก','ดินสอ','ยางลบ');
 
-select * from Products
+select * from Categories
 where CategoryID = 1;
 
 select * from Categories
@@ -68,5 +68,6 @@ where ReceiptID = 3;
 select ProductID,ProductName,UnitPrice
 from Products
 where CategoryID IN (2,4);
+
 
 
