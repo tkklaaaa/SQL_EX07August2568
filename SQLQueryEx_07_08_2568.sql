@@ -47,7 +47,7 @@ where ProductName IN ('แชมพู','แป้งเด็ก','ดินส
 select * from Categories
 where CategoryID = 1;
 
-select * from Categories
+select CategoryID,CategoryName,Description from Categories
 where CategoryID = 4;
 
 select Title,FirstName,LastName
@@ -68,6 +68,7 @@ where ReceiptID = 3;
 select ProductID,ProductName,UnitPrice
 from Products
 where CategoryID IN (2,4);
+
 
 
 
